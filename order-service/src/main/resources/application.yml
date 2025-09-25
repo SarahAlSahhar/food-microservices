@@ -1,9 +1,9 @@
 server:
-  port: 8089
+  port: 8083
 
 spring:
   application:
-    name: customer-service
+    name: order-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/orders_db?serverTimezone=UTC
