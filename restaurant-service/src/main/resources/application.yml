@@ -21,7 +21,7 @@ spring:
         format_sql: true
         dialect: org.hibernate.dialect.MySQL8Dialect
         
-        eureka:
+eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
